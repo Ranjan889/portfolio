@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore legal blogs and articles by Tejaswani Singh on Corporate Law, Constitutional Law, Cyber Law, and more." />
+  <title>Blogs & Articles - Tejaswani Singh | Law Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet" />
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  
+  <!-- Blog Stylesheet -->
+  <link rel="stylesheet" href="blog-style.css" />
+</head>
+<body>
+
+  <!-- ==========================================
+     NAVIGATION BAR
+     ========================================== -->
+  <header class="site-header" id="top">
+    <nav class="navbar container" aria-label="Main navigation">
+      
+      <!-- Brand Logo & Title -->
+      <a class="brand" href="../index.html#Home" aria-label="Tejaswani Singh home">
+        <span class="brand-mark">TS</span>
+        <span class="brand-copy">
+          <strong>Tejaswani Singh</strong>
+          <small>LAW PORTFOLIO</small>
+        </span>
+      </a>
+
+      <!-- Mobile Menu Hamburger Toggle Button -->
+      <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <!-- Navigation Links -->
+      <div class="nav-links" id="navLinks">
+        <a class="nav-link" href="../index.html#Home">Home</a>
+        <a class="nav-link" href="../index.html#about">About</a>
+        <a class="nav-link" href="../index.html#Experience">Experience</a>
+        <a class="nav-link active" href="blogs.html">Blog</a>
+        <a class="nav-link" href="../index.html#skills">Skills</a>
+        <a class="nav-cta" href="../index.html#contact">Let's Connect <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+
+    </nav>
+  </header>
+
+  <main>
+    <!-- ==========================================
+       BLOGS & ARTICLES SECTION
+       ========================================== -->
+    <section class="blog-section">
+      <div class="blog-container">
+        
+        <!-- Top Bar: Header & Search Input -->
+        <div class="blog-top-bar">
+          <div class="blog-header">
+            <h2 class="blog-title">Blogs & Articles</h2>
+            <span class="blog-title-line"></span>
+          </div>
+          <div class="blog-search-box">
+            <input type="text" id="searchInput" placeholder="Search articles..." aria-label="Search articles">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+
+        <!-- Filter Category Buttons -->
+        <div class="blog-filters" role="group" aria-label="Blog categories">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="Corporate Law">Corporate Law</button>
+          <button class="filter-btn" data-filter="Constitutional Law">Constitutional Law</button>
+          <button class="filter-btn" data-filter="Criminal Law">Criminal Law</button>
+          <button class="filter-btn" data-filter="Cyber Law">Cyber Law</button>
+          <button class="filter-btn" data-filter="Legal Awareness">Legal Awareness</button>
+        </div>
+
+        <!-- Blog Cards Grid -->
+        <div class="blog-grid" id="blogGrid">
+          
+          <!-- Card 1 -->
+          <article class="blog-card" data-category="Corporate Law">
+            <div class="blog-img-box">
+              <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=600&q=80" alt="Corporate Law" loading="lazy">
+            </div>
+            <div class="blog-content">
+              <h3>The Role of Corporate Law in Modern Business</h3>
+              <div class="blog-meta-row">
+                <span class="blog-tag">Corporate Law</span>
+                <span class="blog-date">15 Sep 2025</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="blog-card" data-category="Constitutional Law">
+            <div class="blog-img-box">
+              <img src="https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=600&q=80" alt="Privacy" loading="lazy">
+            </div>
+            <div class="blog-content">
+              <h3>Right to Privacy in Digital Age</h3>
+              <div class="blog-meta-row">
+                <span class="blog-tag">Constitutional Law</span>
+                <span class="blog-date">10 Sep 2025</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="blog-card" data-category="Cyber Law">
+            <div class="blog-img-box">
+              <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=600&q=80" alt="Cyber Law" loading="lazy">
+            </div>
+            <div class="blog-content">
+              <h3>Cyber Crimes and Legal Remedies</h3>
+              <div class="blog-meta-row">
+                <span class="blog-tag">Cyber Law</span>
+                <span class="blog-date">5 Sep 2025</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="blog-card" data-category="Legal Awareness">
+            <div class="blog-img-box">
+              <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=600&q=80" alt="Legal Education" loading="lazy">
+            </div>
+            <div class="blog-content">
+              <h3>Importance of Legal Education in India</h3>
+              <div class="blog-meta-row">
+                <span class="blog-tag">Legal Awareness</span>
+                <span class="blog-date">20 Aug 2025</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 5 -->
+          <article class="blog-card" data-category="Constitutional Law">
+            <div class="blog-img-box">
+              <img src="https://images.unsplash.com/photo-1505664194779-8baceb93744?auto=format&fit=crop&w=600&q=80" alt="Case Analysis" loading="lazy">
+            </div>
+            <div class="blog-content">
+              <h3>Case Analysis: Kesavananda Bharati v. State of Kerala</h3>
+              <div class="blog-meta-row">
+                <span class="blog-tag">Constitutional Law</span>
+                <span class="blog-date">20 Aug 2025</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 6 -->
+          <article class="blog-card" data-category="Legal Awareness">
+            <div class="blog-img-box">
+              <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80" alt="Women Empowerment" loading="lazy">
+            </div>
+            <div class="blog-content">
+              <h3>Women Empowerment through Legal Reforms</h3>
+              <div class="blog-meta-row">
+                <span class="blog-tag">Legal Awareness</span>
+                <span class="blog-date">12 Aug 2025</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================
+     DARK FOOTER SECTION
+     ========================================== -->
+  <footer class="footer-section">
+    <div class="footer-container">
+      <div class="footer-brand-group">
+        <div class="footer-logo-box">TS</div>
+        <div class="footer-brand-text">
+          <h3>Tejaswani Singh</h3>
+          <span>LAW PORTFOLIO</span>
+        </div>
+      </div>
+
+      <div class="footer-center">
+        <p>&copy; 2026 Tejaswani Singh. Built with purpose.</p>
+      </div>
+
+      <div class="footer-right">
+        <a href="https://linkedin.com/in/yourname" target="_blank" class="footer-icon-box" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="mailto:ionixjhonsan@gmail.com" class="footer-icon-box" aria-label="Email">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Blog & Navigation JavaScript -->
+  <script src="blog-script.js"></script>
+</body>
+</html>
